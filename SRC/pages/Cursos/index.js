@@ -1,4 +1,4 @@
-mport React from "react";
+import React from "react";
 import {useNavigation, useRoute} from '@react-navigation/native';
 import styles from './style';
 import Logo from '../../assets/logo.png';
