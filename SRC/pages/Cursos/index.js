@@ -1,22 +1,30 @@
 import React from "react";
-import {useNavigation, useRoute} from '@react-navigation/native';
-import styles from './style';
-import Logo from '../../assets/logo.png';
-import {View, Image} from "react-native";
+import { View, Text, TouchableOpacity, Image } from "react-native";
+import Style from "./style";
+import logoImg from "../../assets/icon.png";
 
-export default function Curso(){
-    const navigation = useNavigation();
-    const route = useRoute();
-    function navigationBack(){
-        navigation.goBack();
-    }
+export default function Cursos({ navigation }) {
+  return (
+    <View style={Style.container}>
+      <View style={Style.header}>
+        <Image source={logoImg} />
+      </View>
 
-    return(
-        <View style={styles.container}>
-            <View style={styles.header}>
-                <Image source={Logo}/>
+      <Text style={Style.title}>Cursos</Text>
 
-            </View>
-        </View>
-    );
+      <View style={Style.content}>
+        <Text style={Style.coursesName}>Desenvolvimento de Sistemas</Text>
+        <TouchableOpacity
+          style={Style.coursesSubjects}
+          onPress={() => navigation.navigate("Disciplinas")}
+        >
+          <Text style={Style.coursesSubjectsText}>
+            Ver disciplinas do curso
+          </Text>
+        </TouchableOpacity>
+
+
+      </View>
+    </View>
+  );
 }
