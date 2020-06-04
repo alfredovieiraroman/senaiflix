@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import Style from "./style";
-import logoImg from "../../assets/icon.png";
+import logoImg from "../../assets/logo.png";
 
 export default function Cursos({ navigation }) {
   return (
