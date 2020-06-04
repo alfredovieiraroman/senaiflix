@@ -8,6 +8,7 @@ import Cursos from "./pages/Cursos";
 import Disciplinas from "./pages/Disciplinas";
 import Logica from "./pages/Desenvolvimento/logica";
 import Desenvolvimento1 from "./pages/Desenvolvimento/desenvolvimento1";
+import Testesoft from "./pages/Desenvolvimento/testesoft";
 
 export default function Routes() {
   return (
@@ -17,6 +18,8 @@ export default function Routes() {
         <AppTab.Screen name="Disciplinas" component={Disciplinas} />
         <AppTab.Screen name="Logica" component={Logica} />
         <AppTab.Screen name="Desenvolvimento1" component={Desenvolvimento1} />
+        <AppTab.Screen name="Testsoftware" component={Testesoft} />
+
       </AppTab.Navigator>
 
     </NavigationContainer>
