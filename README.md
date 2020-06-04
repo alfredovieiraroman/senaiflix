@@ -21,6 +21,14 @@ APIs
 TMDB (https://developers.themoviedb.org/3)
 Youtube API v3
 
+Arquitetura
+![arquitetura](Doc/arqu.png)
+
+APP Utilizado foi o Node
+Utiliza o Axio como ponte entre o APP e back
+O Axio tambem faz a conexao com o youtube para demonstracao correta dos videos.
+
+
 Comandos
 Instalar o Expo-cli:
 npm install -g expo-cli
