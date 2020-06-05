@@ -11,7 +11,7 @@ export default function Logica({ navigation }) {
         <View style={Style.header}>
           <Image source={logoImg} />
         </View>
-        <Text style={Style.title}>Lógica de Programação</Text>
+        <Text style={Style.title}>Dispositivos Moveis</Text>
 
          <View style={Style.body}>
             <View style={Style.player}>

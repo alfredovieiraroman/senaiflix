@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Senai Flix",
-    "slug": "senaiflix",
+    "name": "Dev Flix",
+    "slug": "devflix",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#333333"
     },
@@ -19,7 +19,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.senai.senaiflix"
+      "package": "com.senai.devflix"
     }
   }
 }

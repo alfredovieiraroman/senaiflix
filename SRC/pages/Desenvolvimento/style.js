@@ -23,15 +23,15 @@ export default StyleSheet.create({
     player: {
         height: '100%',
         width: '100%',
-
+        
     },
     body: {
         flex: 1,
-        width: '50',
+        width: 50,
         height: '70%',
         backgroundColor: '#000',
         marginTop: 150,
         marginLeft: -500,
-
+           
     }
 });

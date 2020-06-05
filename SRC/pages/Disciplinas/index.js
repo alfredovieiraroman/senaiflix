@@ -33,7 +33,7 @@ export default function Disciplinas({ navigation }) {
             </Text>
           </TouchableOpacity>
 
-        </View>
+        </View>      
     </View>
   );
 }

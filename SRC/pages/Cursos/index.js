@@ -22,7 +22,7 @@ export default function Cursos({ navigation }) {
             Ver disciplinas do curso
           </Text>
         </TouchableOpacity>
-
+        
 
       </View>
     </View>
